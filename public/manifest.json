@@ -1,0 +1,26 @@
+{
+  "short_name": "Curri Currency Converter",
+  "name": "Curri Currency Converter",
+  "des":"",
+  "icons": [
+    {
+      "src": "favicon.icon",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/icon"
+    },
+    {
+      "src": "favicon.icon",
+      "type": "image/icon",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon.icon",
+      "type": "image/icon",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

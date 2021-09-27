@@ -1,0 +1,922 @@
+
+.some-page-wrapper {
+  margin: 0%;
+  margin-top: 0%;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  
+  .orange-column {
+   
+    height: auto;
+  }
+  
+  .blue-column {
+  
+    height: auto;
+  }
+ 
+  
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  @media screen and (min-width: 800px) {
+      
+.some-page-wrapper {
+  margin: 10%;
+  margin-top: 0%;
+  }
+    
+      .column {
+        flex: 1
+      }
+    
+      .double-column {
+        flex: 2
+      }
+  }
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .App {
+    background-color: #282c34;
+    padding: 5px;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .bottomLine {
+    width: 100%;
+    position: relative;
+    top: 30vh;
+    margin: 25%;
+    transform: rotate(60deg);
+}
+  .App-header {
+    background-color: #fff;
+    height: 280%;
+    width: 85%;
+    margin: 5%;
+    position: relative;
+    top: 25vh;
+    left: 3%;
+  opacity:0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    box-shadow: 1px 1px 2px #9E9E9E;
+}
+.convertHeading{
+  position: absolute;
+  width: 50%;
+  top: 5%;
+  left: 5%;
+  display: block;
+}
+.convertHeading>h3{
+  color: #000;
+  font-size: 19px;
+  font-weight: 900;
+  display: block;
+  width: 50%;
+}
+.convertHeading p{
+  color: #000;
+  font-size: 9px;
+  position: relative;
+  top: -15px;
+}
+.convertColumn{
+  display: flex;
+  flex-flow: row-reverse;
+  width: 100%;
+  margin: 10%;
+  padding: 10px;
+  height: 1vh;
+  position: relative;
+  top: -30px;
+  left: 10%;
+}
+.amountColumn{
+  left: -10%;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  top: 60%;
+
+}
+.amountColumn p{
+  font-size: 8px;
+  position: relative;
+  top: -25px;
+  color: #000;
+  text-transform: uppercase;
+  left: 25%;
+  margin-top: 4%;
+}
+.amountColumn input{
+  position: absolute;
+  left: 25%;
+  height: 4vh;
+  background: #e4e3e3;
+  border: 3px solid #c88bad;
+}
+.convertSelect{
+  position: relative;
+  left: -50%;
+  padding-bottom: 5;
+  line-height: -2;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.convertSelect p{
+  color: #000;
+  position: relative;
+  left: 50%;
+  top: 2.4vh;
+  text-transform: uppercase;
+  font-size: 8px;
+}
+.result{
+  left: 30%;
+  position: relative;
+  top: 100px;
+}
+.result p{
+  font-size:25px;
+  color: #000;
+  font-weight: 900;
+  transform: rotate(-45deg);
+}
+.line{
+  background: #d9a48c;
+  width: 120%;
+  position: relative;
+  top: -22px;
+  margin: 7%;
+  height: 3%;
+  display: block;
+  transform: skewY(-40deg);
+}
+.d{
+  margin: 20%;
+  position: relative;
+  left: 30%;
+  color: #000;
+  padding-bottom: 3%;
+  min-height: 5vh;
+  font-size: 12px;
+  background: #eaeaea;
+  border: 3px solid #c88bad;
+  padding-top: 3%;
+  padding-bottom: 5;
+  line-height: -2;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo{
+  font-weight:900;
+  font-style: italic;
+  color:#fff;
+  margin: 1%;
+  position:relative;
+  left:-520px;
+  font-size: 1.5rem;
+  text-shadow:1px 0 0 rgb(102, 102, 102);
+}
+.leftSection{
+width:100%;
+position: relative;
+left:-440px;
+top: 5vh;
+margin-bottom: -35%;
+}
+.leftSection>h1{
+  font-size: 1.9rem;
+  color: #eec264;
+  width: 80%;
+  margin: 5%;
+  text-shadow: 1px 0 0 black;
+}
+.leftSection span{
+  width: 50%;
+  background: #eec264;
+  color: #282c34;
+  height: 8vh;
+  line-height: 5;
+  font-weight: 900;
+  margin: 5%;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  display: block;
+}
+.flag{
+  color: #fff;
+  margin: 0%;
+  position: relative;
+  float: right;
+  top: 5%;
+  left: 43%;
+  height: 5vh;
+  display: block;
+  font-family: serif;
+  font-weight: 400;
+  overflow: hidden;
+  width: 35%;
+  font-style: normal;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)  {
+  .App {
+    background-color: #282c34;
+   height: 120vh;
+    overflow-x: hidden;
+  }
+  .bottomLine{
+    width: 100%;
+    position: relative;
+    top: -55vh;
+    height: 90%;
+    left: 25%;
+  
+    transform: rotate(90deg);
+  }
+  .App-header {
+    background-color: #fff;
+    height: 60vh;
+    width: 90%;
+    margin: 5%;
+    position: relative;
+    top: 85vh;
+    z-index: 1;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    box-shadow: 1px 1px 2px #9E9E9E;
+  }
+  .convertHeading{
+    position: absolute;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    display: block;
+  }
+  .convertHeading>h3{
+    color: #000;
+    font-size: 19px;
+    font-weight: 900;
+    display: block;
+    width: 50%;
+  }
+  .convertHeading p{
+    color: #000;
+    font-size: 9px;
+    position: relative;
+    top: -15px;
+  }
+  .convertColumn{
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100%;
+    margin: 10%;
+    padding: 10px;
+    height: 1vh;
+    position: relative;
+    top: -60px;
+    left: 100%;
+  }
+  .amountColumn{
+    left: 29%;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 55%;
+  
+  }
+  .amountColumn p{
+    font-size: 8px;
+    position: relative;
+    top: -45px;
+    color: #000;
+    text-transform: uppercase;
+    left: 25%;
+    margin-top: 4%;
+  }
+  .amountColumn input{
+    position: absolute;
+    left: 25%;
+    height: 8vh;
+    background: #e4e3e3;
+    border: 3px solid #c88bad;
+  }
+  .convertSelect{
+    position: relative;
+    left: -50%;
+    padding-bottom: 5;
+    line-height: -2;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .convertSelect p{
+    color: #000;
+    position: relative;
+    left: 50%;
+    top: 2.4vh;
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+  .result{
+    left: 40%;
+    position: relative;
+    top: 10px;
+  }
+  .result p{
+    font-size:25px;
+    color: #000;
+    font-weight: 900;
+    transform: rotate(-45deg);
+  }
+  .line{
+    background: #d9a48c;
+    width: 120%;
+    position: relative;
+    top: -22px;
+    margin: 7%;
+    height: 3%;
+    display: block;
+    transform: skewY(-40deg);
+  }
+  .d{
+    margin: 20%;
+    position: relative;
+    left: 30%;
+    color: #000;
+    padding-bottom: 3%;
+    min-height: 10vh;
+    font-size: 12px;
+    background: #eaeaea;
+    border: 3px solid #c88bad;
+    padding-top: 3%;
+    padding-bottom: 5;
+    line-height: -2;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo{
+    font-weight:900;
+    font-style: italic;
+    color:#fff;
+    margin: 1%;
+    position:relative;
+    left:-520px;
+    font-size: 1.5rem;
+    text-shadow:1px 0 0 rgb(102, 102, 102);
+  }
+  .leftSection{
+  width:100%;
+  position: relative;
+  left:-420px;
+  top: 5vh;
+  margin-bottom: -35%;
+  }
+  .leftSection>h1{
+    font-size: 1.9rem;
+    color: #eec264;
+    width: 80%;
+    margin: 5%;
+    text-shadow: 1px 0 0 black;
+  }
+  .leftSection span{
+    width: 40%;
+    background: #eec264;
+    color: #282c34;
+    height: 15vh;
+    line-height: 5;
+    font-weight: 900;
+    margin: 5%;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+  }
+  .flag {
+    color: #fff;
+    margin: 0%;
+    position: relative;
+    float: right;
+    top: 25%;
+    left: 40%;
+    height: 10vh;
+    display: block;
+    font-family: serif;
+    font-weight: 400;
+    overflow: hidden;
+    width: 35%;
+    font-style: normal;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  {
+  .App {
+    background-color: #282c34;
+   height: 150%;
+    overflow: hidden;
+  }
+  .bottomLine{
+    width: 100%;
+    position: relative;
+    top: 25vh;
+    margin: 15%;
+    transform: rotate(90deg);
+  }
+  .App-header {
+    background-color: #fff;
+    height: 50vh;
+    width: 90%;
+    margin: 5%;
+    position: relative;
+    top: 50vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -7px rgba(0, 0, 0, 0.15);
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App {
+    background-color: #282c34;
+   height: 100vh;
+    overflow: hidden;
+  }
+  .bottomLine{
+    width: 100%;
+    height: 60vh;
+    left: 20%;
+    position: relative;
+    top: -65vh;
+    margin: 15%;
+    transform: rotate(90deg);
+  }
+  .App-header {
+    background-color: #fff;
+    height: 50vh;
+    width: 90%;
+    margin: 5%;
+    position: relative;
+    top: 30vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+  }
+  .convertHeading{
+    position: absolute;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    display: block;
+  }
+  .convertHeading>h3{
+    color: #000;
+    font-size: 19px;
+    font-weight: 900;
+    display: block;
+    width: 50%;
+  }
+  .convertHeading p{
+    color: #000;
+    font-size: 8px;
+    position: relative;
+    top: -15px;
+  }
+  .convertColumn{
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100%;
+    margin: 10%;
+    padding: 10px;
+    height: 1vh;
+    position: relative;
+    top: -45px;
+    left: 10%;
+  }
+  .amountColumn{
+    left: -1%;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+  
+  }
+  .amountColumn p{
+    font-size: 8px;
+    position: relative;
+    top: -30px;
+    color: #000;
+    text-transform: uppercase;
+    left: 25%;
+    margin-top: 4%;
+  }
+  .amountColumn input{
+    position: absolute;
+    left: 25%;
+    height: 4vh;
+    background: #e4e3e3;
+    border: 3px solid #c88bad;
+  }
+  .convertSelect{
+    position: relative;
+    left: -50%;
+    padding-bottom: 5;
+    line-height: -2;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .convertSelect p{
+    color: #000;
+    position: relative;
+    left: 50%;
+    top: 2.4vh;
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+  .result{
+    left: 30%;
+    position: relative;
+    top: 70px;
+  }
+  .result p{
+    font-size:25px;
+    color: #000;
+    font-weight: 900;
+    transform: rotate(-45deg);
+  }
+  .line{
+    background: #d9a48c;
+    width: 120%;
+    position: relative;
+    top: -22px;
+    margin: 7%;
+    height: 3%;
+    display: block;
+    transform: skewY(-40deg);
+  }
+  .d{
+    margin: 20%;
+    position: relative;
+    left: 30%;
+    color: #000;
+    padding-bottom: 3%;
+    min-height: 5vh;
+    font-size: 12px;
+    background: #eaeaea;
+    border: 3px solid #c88bad;
+    padding-top: 3%;
+    padding-bottom: 5;
+    line-height: -2;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #fff;
+    position: relative;
+    left:-100%;
+    text-shadow: 1px 0 0 rgb(102, 102, 102);
+    margin-left: -15%;
+  }
+  .leftSection{
+    width:100%;
+    position: relative;
+    top: 20vh;
+    left:-100%;
+    margin-bottom: -35%;
+    }
+    .leftSection>h1{
+      font-size: 2.3rem;
+      color: #eec264;
+      width: 80%;
+      margin: 5%;
+      text-shadow: 1px 0 0 black;
+    }
+  .leftSection span{
+    width: 50%;
+    background: #eec264;
+    color: #282c34;
+    height: 8vh;
+    line-height: 5;
+    font-weight: 900;
+    margin: 5%;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+  }
+  .flag{
+    font-weight: 100;
+    color: #fff;
+    margin: 1%;
+    position: relative;
+    float: right;
+    top:0px;
+    left: 150%;
+    height: 5vh;
+    display: block;
+    overflow: hidden;
+    width: 20%;
+    font-size: 1.5rem;
+    text-shadow: 1px 0 0 rgb(102, 102, 102);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)  {
+  .App {
+    background-color: #282c34;
+   height: 100vh;
+    overflow: hidden;
+  }
+  .bottomLine{
+    width: 100%;
+    height: 60vh;
+    left: 22%;
+    position: relative;
+    top: -75vh;
+    margin: 15%;
+    transform: rotate(90deg);
+  }
+  .App-header {
+    background-color: #fff;
+    height: 50vh;
+    width: 90%;
+    margin: 5%;
+    position: relative;
+    top: 30vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .convertHeading{
+    position: absolute;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    display: block;
+  }
+  .convertHeading>h3{
+    color: #000;
+    font-size: 19px;
+    font-weight: 900;
+    display: block;
+    width: 50%;
+  }
+  .convertHeading p{
+    color: #000;
+    font-size: 8px;
+    position: relative;
+    top: -15px;
+  }
+  .convertColumn{
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100%;
+    margin: 10%;
+    padding: 10px;
+    height: 1vh;
+    position: relative;
+    top: -45px;
+    left: 10%;
+  }
+  .amountColumn{
+    left: 3%;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+  
+  }
+  .amountColumn p{
+    font-size: 8px;
+    position: relative;
+    top: -30px;
+    color: #000;
+    text-transform: uppercase;
+    left: 25%;
+    margin-top: 4%;
+  }
+  .amountColumn input{
+    position: absolute;
+    left: 25%;
+    height: 4vh;
+    background: #e4e3e3;
+    border: 3px solid #c88bad;
+  }
+  .convertSelect{
+    position: relative;
+    left: -50%;
+    padding-bottom: 5;
+    line-height: -2;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .convertSelect p{
+    color: #000;
+    position: relative;
+    left: 50%;
+    top: 2.4vh;
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+  .result{
+    left: 30%;
+    position: relative;
+    top: 70px;
+  }
+  .result p{
+    font-size:25px;
+    color: #000;
+    font-weight: 900;
+    transform: rotate(-45deg);
+  }
+  .line{
+    background: #d9a48c;
+    width: 120%;
+    position: relative;
+    top: -22px;
+    margin: 7%;
+    height: 3%;
+    display: block;
+    transform: skewY(-40deg);
+  }
+  .d{
+    margin: 20%;
+    position: relative;
+    left: 30%;
+    color: #000;
+    padding-bottom: 3%;
+    min-height: 5vh;
+    font-size: 12px;
+    background: #eaeaea;
+    border: 3px solid #c88bad;
+    padding-top: 3%;
+    padding-bottom: 5;
+    line-height: -2;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #fff;
+    position: relative;
+    left:-100%;
+    text-shadow: 1px 0 0 rgb(102, 102, 102);
+    margin-left: -15%;
+  }
+  .leftSection{
+  width:100%;
+  position: relative;
+  top: 30vh;
+  left:-100%;
+  margin-bottom: -35%;
+  }
+  .leftSection>h1{
+    font-size: 2.5rem;
+    color: #eec264;
+    width: 80%;
+    margin: 5%;
+    text-shadow: 1px 0 0 black;
+  }
+  .leftSection span{
+    width: 50%;
+    background: #eec264;
+    color: #282c34;
+    height: 8vh;
+    line-height: 5;
+    font-weight: 900;
+    margin: 5%;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+  }
+  .flag{
+    font-weight: 100;
+    color: #fff;
+    margin: 1%;
+    position: relative;
+    float: right;
+    top:0px;
+    left: 150%;
+    height: 5vh;
+    display: block;
+    overflow: hidden;
+    width: 20%;
+    font-size: 1.5rem;
+    text-shadow: 1px 0 0 rgb(102, 102, 102);
+  }
+}
+
+
+
+.bar{
+  background-color: #fff;
+  display:block;
+  height: 5px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 60%;
+  position: absolute;
+  top:50vh;
+  left: 20%;
+ 
+}
+.bar span{
+  height: 5px;
+  float: left;
+  background-color: rgb(40 44 52);
+}
+.indicator{
+  width: 100%;
+  animation: loader 2s ease-in-out;
+}
+@keyframes loader{
+0%{
+  width:0%;
+}
+100%{
+  width: 100%;
+}
+}
+.cover{
+  height: 100vh;
+  width:100%;
+  position:absolute;
+  z-index:5;
+  background-color: #eec264;
+}
+.flag p{
+  font-size: 9px;
+  text-transform: uppercase;
+}
+.flag img{
+  width: 4vh;
+  left: 4%;
+  top: 2px;
+  position: relative;
+}
